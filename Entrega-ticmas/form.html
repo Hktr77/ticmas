@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+     <link href="css/form-styles.css" rel='stylesheet' type='text/css' />
+
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+  <title>Portafolio Elisa</title>
+</head>
+<body>
+
+  <section class="contact">
+    <div class="u-wrapper">
+      <div class="contact-content">
+
+        <form id="form" action="" class="form" method="get">
+          <h3 class="tag"><span>Contactanos</span></h3>
+          <label for="name">Nombre Completo <span>*</span></label>
+          <input name="name" required type="text" id="name" placeholder="Javier">
+          <label for="email">Correo electrónico <span>*</span></label>
+          <input name="email" type="text" id="email" required placeholder="javier@protonmail.com">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+          <button type="submit" class="btn">Enviar Mensaje</button>
+
+
+          <script type="text/javascript" src="java/script.js"></script>
+        </form>
+        <a href="mailto:javier@protonmail.com" id="hack">Mail</a>
+
+
+      </div>
+    </div>
+  </section>
+
+  
+ <script>
+    const $form = document.querySelector('#form')
+    const $buttonMailto = document.querySelector('#hack')
+
+    $form.addEventListener('submit', handleSubmit)
+
+    function handleSubmit(event) {
+      event.preventDefault()
+      const form = new FormData(this)
+      console.log(form.get('name'))
+
+
+      $buttonMailto.setAttribute('href', `mailto:javier@protonmail.com?subject=&body=nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+      $buttonMailto.click()
+    }
+  </script>-->
+
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,700,800,900,600,200);
+
+
+
+html, body{
+   /* font-family: 'Raleway', sans-serif;*/
+    font-size: 100%;
+    background:url(../images/pr.jpg) repeat 0px 0px ;
+   
+    background-color: 
+}
+
+
+#presentacion{
+/*
+	font-family: "Verdana";
+	
+	to
+	float: left;*/
+	font-family: "Verdana";
+	font-size: 20px;
+	text-align: left;
+	position: relative;
+	top:0px;
+	bottom:0px ;
+	right: 0px;
+	left: 20px;
+
+
+
+}
+
+h1,h2,h3
+{
+
+	background-color:  #F28524;
+	margin: solid;
+	opacity: 80%;
+	padding:3px
+}
+
+button{
+
+	height: 40px;
+	width: 100px;
+	
+   
+
+}
+
+a:link, a:visited {
+  color: blue;
+}
+
+img{
+	width: 300px;
+	height: auto;
+	display: block;
+	border-radius: 50%;
+	padding: 10px;
+	border: 1px solid #000;
+	float:left;
+
+}
+ body a{
+ 	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+ }
+
+ form{
+	display: flex;
+	width: 50%;
+}
+	
+
+.textarea textarea{
+	height: 205px;
+	resize: none;
+	display: flex;
+	justify-content: left;
+	width: 50%;
+}
+
+ input[type="text"]:hover,.textarea textarea:hover,.text-box input[type="text"]:focus,.textarea textarea:focus{
+	border-color: rgba(231, 76, 60, 0.55);
+}
+.text-box input[type="text"],.textarea textarea{
+	border: 2px solid #E5E5E5;
+	width: 200%;
+	padding: 1px;
+	border-radius: 5px;
+	margin-bottom: 1.5em;
+	position: relative;
+
+	top:0px;
+	bottom:0px ;
+	right: 0px;
+	left: 100px;
+	align-self: left;
+}
+input{
+	float: l
+	padding: 1px;
+	border-radius: 5px;
+	width: 300px;
+}
+
+.boton
+{
+
+width: 400px;
+	height: 50px;
+	font-family: "Verdana"
+	font-size: 35px;
+	position: relative;
+	  /*  background:url(../images/binary.jpg) repeat 0px 0px ;
+*/
+
+	
+}
+
+}
